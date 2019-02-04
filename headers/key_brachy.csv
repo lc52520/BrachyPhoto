@@ -1,0 +1,56 @@
+Acc,BioName,Other,Type of gene,Major role,GeneAcc
+Bradi2g14290.v3.1,ELF3,,"Scaffold protein, clock gene",Floral repressor in SD,Bradi2g14290
+Bradi1g08400.v3.1,PHYC,,Light sensor,Represses ELF3 in light,Bradi1g08400
+Bradi1g64360.v3.1,PHYB,,Light sensor,Represses ELF3 in light,Bradi1g64360
+Bradi2g05226.v3.1,GI,,"Scaffold protein, facilitates transcription",Activates flowering genes,Bradi2g05226
+Bradi4g16630.v3.1,FKF,,Assists GI,Assists GI,Bradi4g16630
+Bradi2g11100.v3.1,PIF2,,"bHLH TF, promotes flowering","Activates elongation growth and flowering, transmits GA signal",Bradi2g11100
+Bradi3g33170.v3.1,PIF3,,"bHLH TF, promotes flowering","Activates elongation growth and flowering, transmits GA signal",Bradi3g33170
+Bradi1g58230.v3.1,PIF4,,"bHLH TF, promotes flowering","Activates elongation growth and flowering, transmits GA signal",Bradi1g58230
+Bradi1g48830.v3.1,FT1,,Florigen,Triggers the floral transition,Bradi1g48830
+Bradi2g07070.v3.1,FT2,,Florigen,Triggers the floral transition,Bradi2g07070
+Bradi1g16490.v3.1,PRR37,,"Transcription factor, promotes flowering",Activates FT and flowering genes,Bradi1g16490
+Bradi3g16515.v3.1,CCA1,LHY,"Clock gene, TF",Clock regulation,Bradi3g16515
+Bradi4g13227.v3.1,ELF4,,Massively induced in the PIF2 OE line,,Bradi4g13227
+Bradi1g60090.v3.1,ELF4B,,45% identity to AthELF4,,Bradi1g60090
+Bradi2g62067.v3.1,LUX,,,,Bradi2g62067
+Bradi1g29680.v3.1,RVE7,,,,Bradi1g29680
+Bradi1g32330.v3.1,RVE6,,,,Bradi1g32330
+Bradi4g23967.v3.1,BdMYB4,,,Coexpressed with genes in cold stress specific coexpression subnetwork,Bradi4g23967
+Bradi3g33400.v3.1,BdKUA1,,,"Encodes a circadian-regulated transcription factor which specifically controls cell expansion during leaf development by controlling ROS homeostasis. The mRNA is cell-to-cell mobile.""",Bradi3g33400
+Bradi2g25380.v3.1,LUX2,,,,Bradi2g25380
+Bradi3g42350.v3.1,BdMYB68,,,Encodes a member of MYB3R- and R2R3- type MYB- encoding gene family that acts as a repressor of flavonol biosynthesis. AtMYB7 gene expression is induced by salt treatment.,Bradi3g42350
+Bradi1g13980.v3.1,BdbHLH11,,,PIF4-like,Bradi1g13980
+Bradi4g36077.v3.1,BdPRR95,,,homologous to AthPRR5 and AthPRR7,Bradi4g36077
+Bradi2g56910.v3.1,BdGRAS24,,,SCARECROW-LIKE PROTEIN 1 with GRAS domain,Bradi2g56910
+Bradi1g18407.v3.1,BdCO13,,,Constants-like with CCT motif,Bradi1g18407
+Bradi4g24967.v3.1,BdPRR59,,, pseudo-response regulator,Bradi4g24967
+Bradi2g11676.v3.1,BdMYB111,,, Flavonol-specific transcription activator,Bradi2g11676
+Bradi4g06317.v3.1,BdMYB46,,,,Bradi4g06317
+Bradi2g28460.v3.1,BdPPT,,,polyprenyltransferase activity ,Bradi2g28460
+Bradi1g08340.v3.1,BdAP1,,,,Bradi1g08340
+Bradi3g10010.v3.1,BdGHD7L2,,,GHD7:ATCOL4: B-BOX DOMAIN PROTEIN 5: BBX5: COL4: CONSTANS-LIKE 4,Bradi3g10010
+Bradi4g02570.v3.1,BdbZIP63,,,regulates PRR7! Reqd for correct oscillator cycle in light-dark,Bradi4g02570
+Bradi3g53790.v3.1,TPS6,,,Encodes an enzyme putatively involved in trehalose biosynthesis. The protein has a trehalose synthase (TPS)-like domain and a trehalose phosphatase (TPP)-like domain. It can complement a yeast mutant lacking both of these activities suggesting that this is a bifunctional enzyme,Bradi3g53790
+Bradi3g51960.v3.1,BdMYB56,,,Bound by PPD1,Bradi3g51960
+Bradi3g15490.v3.1,BBX28,,,AT4G27310B-BOX DOMAIN PROTEIN 28: BBX28 Encodes a B-box domain protein that negatively regulates photomorphogenic development by interfering with the binding of the transcription factor HY5 to target gene promoters. Degradation of BBX28 in darkness is dependent on COP1 and occurs via the 26S proteasome pathway. BBX28 acts as a key factor in the COP1-HY5 regulatory hub by maintaining proper HY5 activity to ensure normal photomorphogenic development in plants.
+Bradi1g17410.v3.1,CDF2,,,Dof-type zinc finger domain-containing protein. identical to H-protein promoter binding factor-2a GI:3386546 from (Arabidopsis thaliana). Interacts with LKP2 and FKF1. but its overexpression does not change flowering time under short or long day conditions.
+Bradi1g21980.v3.1,BdMAD5,,,K-box Agamous-like
+Bradi1g59250.v3.1,BdMAD16,,,K-box Agamouse-like
+Bradi5g01797.v3.1,BdTPS,,,Terpene synthase
+Bradi1g59690.v3.1,BdTPS10,,,Terpene synthase
+Bradi2g10880.v3.1,BdLNK4,,,LNK homologue
+Bradi1g60846.v3.1,BdLNK1,,,LNK homologue
+Bradi1g12290.v3.1,Bradi1g12290,,,,
+Bradi4g24425.v3.1,Bradi4g24425,,,,
+Bradi4g09577.v3.1,Bradi4g09577,,,,
+Bradi2g13051.v3.1,Bradi2g13051,,,,
+Bradi1g63397.v3.1,Bradi1g63397,,,,
+Bradi2g50440.v3.1,CIPK24,,,,
+Bradi3g54290.v3.1,DBP1,,,,
+Bradi1g65910.v3.1,PRR73,,,,
+Bradi3g30660.v3.1,SAUR31,,,,
+Bradi3g44900.v3.1,BIC,,,,
+Bradi3g48180.v3.1,BBX24,,,,
+Bradi4g35950.v3.1,BBX19,,,,
+Bradi1g55067.v3.1,Fbox,,,,

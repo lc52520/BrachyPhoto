@@ -1,0 +1,2153 @@
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__makePeakWindows__Brachy-ELF3.py", line 19, in <module>
+    bwCurr= pyutil.readBaseFile('results/0201__dumpMeta__Brachy/bwCurr.csv')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1362, in readBaseFile
+    res = readData(fname,baseFile=baseFile, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1389, in readData
+    fname= pyext.base__file(fname,BASE=baseFile)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/ext.py", line 87, in base__file
+    assert existence,'BASE={BASE},res={res}'.format(**locals())
+AssertionError: BASE=/home/feng/envs/BrachyPhoton,res=/home/feng/envs/BrachyPhoton/results/0201__dumpMeta__Brachy/bwCurr.csv
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[rnaCurr]
+DataAcc	fname	SpecAcc	Age	RunID	ZTime	gtype	light	temp	sampleID	header_	ZTime_int	date	genome	tophatOpt	trimmoOpt	type	bname	sampleCode	mapped_reads	total_reads	runID
+169RS29	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-0-day_S29/Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	0-day	169R	ZT4	Bd21	LD		S29		4						Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS34	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-10-day_S34/Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	10-day	169R	ZT4	Bd21	LD		S34		4						Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS30	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-2day_S30/Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	2day	169R	ZT4	Bd21	LD		S30		4						Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS31	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-4day_S31/Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	4day	169R	ZT4	Bd21	LD		S31		4						Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS32	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-6day_S32/Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	6day	169R	ZT4	Bd21	LD		S32		4						Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+
+[bwCurr]
+DataAcc	bamAcc	bamFinal	bname	fname	runID	sampleID	RPKMFile	hasRPKMFile	bamHeader	npkFile	alias	header	genome	blacklisted	blacklist
+188CRS1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1.bam	64-LD-ZT0-ELF3-OX-RERUN_S1	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw	188CR	S1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_peaks.narrowPeak	64-LD-ZT0-ELF3-OX-RERUN	188CR_S1_64-LD-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2.bam	64-SD-ZT0-ELF3-OX-RERUN_S2	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw	188CR	S2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_peaks.narrowPeak	64-SD-ZT0-ELF3-OX-RERUN	188CR_S2_64-SD-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3.bam	64-LL-ZT0-ELF3-OX-RERUN_S3	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw	188CR	S3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_peaks.narrowPeak	64-LL-ZT0-ELF3-OX-RERUN	188CR_S3_64-LL-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4.bam	64-LD-ZT4-ELF3-OX-RERUN_S4	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_RPKM.bw	188CR	S4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_peaks.narrowPeak	64-LD-ZT4-ELF3-OX-RERUN	188CR_S4_64-LD-ZT4-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS5	ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5	ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5.bam	64-SD-ZT4-ELF3-OX-RERUN_S5	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_RPKM.bw	188CR	S5	ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_peaks.narrowPeak	64-SD-ZT4-ELF3-OX-RERUN	188CR_S5_64-SD-ZT4-ELF3-OX-RERUN	Bd21-v3-1	False	
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__makePeakWindows__Brachy-ELF3.py", line 20, in <module>
+    npkFiles = bwCurr.npkFile.map(pyext.base__file)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/series.py", line 2998, in map
+    arg, na_action=na_action)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/base.py", line 1004, in _map_values
+    new_values = map_f(values, mapper)
+  File "pandas/_libs/src/inference.pyx", line 1472, in pandas._libs.lib.map_infer
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/ext.py", line 87, in base__file
+    assert existence,'BASE={BASE},res={res}'.format(**locals())
+AssertionError: BASE=/home/feng/envs/BrachyPhoton,res=/home/feng/envs/BrachyPhoton/ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_peaks.narrowPeak
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+('merged__combined__ELF3__peaks.narrowPeak', 26260)
+bedtools makewindows -i srcwinnum -w 100 -s 50 -b merged__combined__ELF3__peaks.narrowPeak > merged__combined__ELF3__peaks.narrowPeak.w100s50 
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 186856
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py:259: RuntimeWarning:
+
+divide by zero encountered in divide
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/CountMatrix.py:405: RuntimeWarning:
+
+divide by zero encountered in divide
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[rnaCurr]
+DataAcc	fname	SpecAcc	Age	RunID	ZTime	gtype	light	temp	sampleID	header_	ZTime_int	date	genome	tophatOpt	trimmoOpt	type	bname	sampleCode	mapped_reads	total_reads	runID
+169RS29	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-0-day_S29/Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	0-day	169R	ZT4	Bd21	LD		S29		4						Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS34	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-10-day_S34/Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	10-day	169R	ZT4	Bd21	LD		S34		4						Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS30	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-2day_S30/Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	2day	169R	ZT4	Bd21	LD		S30		4						Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS31	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-4day_S31/Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	4day	169R	ZT4	Bd21	LD		S31		4						Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS32	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-6day_S32/Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	6day	169R	ZT4	Bd21	LD		S32		4						Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+
+[bwCurr]
+DataAcc	bamAcc	bamFinal	bname	fname	runID	sampleID	RPKMFile	hasRPKMFile	bamHeader	npkFile	alias	header	genome	blacklisted	blacklist
+188CRS1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1.bam	64-LD-ZT0-ELF3-OX-RERUN_S1	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw	188CR	S1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_peaks.narrowPeak	64-LD-ZT0-ELF3-OX-RERUN	188CR_S1_64-LD-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2.bam	64-SD-ZT0-ELF3-OX-RERUN_S2	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw	188CR	S2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_peaks.narrowPeak	64-SD-ZT0-ELF3-OX-RERUN	188CR_S2_64-SD-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3.bam	64-LL-ZT0-ELF3-OX-RERUN_S3	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw	188CR	S3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_peaks.narrowPeak	64-LL-ZT0-ELF3-OX-RERUN	188CR_S3_64-LL-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4.bam	64-LD-ZT4-ELF3-OX-RERUN_S4	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_RPKM.bw	188CR	S4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_peaks.narrowPeak	64-LD-ZT4-ELF3-OX-RERUN	188CR_S4_64-LD-ZT4-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS5	ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5	ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5.bam	64-SD-ZT4-ELF3-OX-RERUN_S5	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_RPKM.bw	188CR	S5	ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_peaks.narrowPeak	64-SD-ZT4-ELF3-OX-RERUN	188CR_S5_64-SD-ZT4-ELF3-OX-RERUN	Bd21-v3-1	False	
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+('merged__combined__ELF3__peaks.narrowPeak', 26260)
+bedtools makewindows -i srcwinnum -w 100 -s 50 -b merged__combined__ELF3__peaks.narrowPeak > merged__combined__ELF3__peaks.narrowPeak.w100s50 
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 186856
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__callDiffTarg__Brachy-ELF3.py", line 29, in <module>
+    sutil.qc_Sort(df=chipRel);
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/util.py", line 1002, in qc_Sort
+    (M,V,CV),axsLst = qcAvg(C,silent=0,xlim=xlim,ylim = ylim,nMax=nMax)
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py", line 269, in qcAvg
+    return qc_Avg(*args,**kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py", line 263, in qc_Avg
+    **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/vis_util.py", line 941, in qc_2var
+    fig,axs= plt.subplots(1,4,figsize=[14,4])
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 1198, in subplots
+    fig = figure(**fig_kw)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1818, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+('merged__combined__ELF3__peaks.narrowPeak', 26260)
+bedtools makewindows -i srcwinnum -w 100 -s 50 -b merged__combined__ELF3__peaks.narrowPeak > merged__combined__ELF3__peaks.narrowPeak.w100s50 
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 186856
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__callDiffTarg__Brachy-ELF3.py", line 29, in <module>
+    sutil.qc_Sort(df=chipRel);
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/util.py", line 1002, in qc_Sort
+    (M,V,CV),axsLst = qcAvg(C,silent=0,xlim=xlim,ylim = ylim,nMax=nMax)
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py", line 269, in qcAvg
+    return qc_Avg(*args,**kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py", line 263, in qc_Avg
+    **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/vis_util.py", line 941, in qc_2var
+    fig,axs= plt.subplots(1,4,figsize=[14,4])
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 1198, in subplots
+    fig = figure(**fig_kw)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1818, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__lineplot__pfr.py", line 106, in <module>
+    plotter(dfc)
+  File "./0130__lineplot__pfr.py", line 62, in plotter
+    fig,ax= plt.subplots(1,1,figsize=[7,4])
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 1198, in subplots
+    fig = figure(**fig_kw)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1818, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__lineplot__pfr.py", line 106, in <module>
+    plotter(dfc)
+  File "./0130__lineplot__pfr.py", line 62, in plotter
+    fig,ax= plt.subplots(1,1,figsize=[7,4])
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 1198, in subplots
+    fig = figure(**fig_kw)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1818, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__lineplot__pfr.py", line 106, in <module>
+    plotter(dfc)
+  File "./0130__lineplot__pfr.py", line 62, in plotter
+    fig,ax= plt.subplots(1,1,figsize=[7,4])
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 1198, in subplots
+    fig = figure(**fig_kw)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1818, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__lineplot__pfr.py", line 106, in <module>
+    plotter(dfc)
+  File "./0130__lineplot__pfr.py", line 62, in plotter
+    fig,ax= plt.subplots(1,1,figsize=[7,4])
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 1198, in subplots
+    fig = figure(**fig_kw)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1818, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__lineplot__pfr.py", line 106, in <module>
+    plotter(dfc)
+  File "./0130__lineplot__pfr.py", line 62, in plotter
+    fig,ax= plt.subplots(1,1,figsize=[7,4])
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 1198, in subplots
+    fig = figure(**fig_kw)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1818, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0130__lineplot__pfr.py", line 106, in <module>
+    plotter(dfc)
+  File "./0130__lineplot__pfr.py", line 62, in plotter
+    fig,ax= plt.subplots(1,1,figsize=[7,4])
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 1198, in subplots
+    fig = figure(**fig_kw)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py", line 548, in figure
+    **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backend_bases.py", line 161, in new_figure_manager
+    return cls.new_figure_manager_given_figure(num, fig)
+  File "/usr/local/lib/python2.7/dist-packages/matplotlib/backends/_backend_tk.py", line 1044, in new_figure_manager_given_figure
+    window = Tk.Tk(className="matplotlib")
+  File "/usr/lib/python2.7/lib-tk/Tkinter.py", line 1818, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+('debug', False)
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+('debug', True)
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+('debug', True)
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning:
+
+invalid value encountered in reduce
+
+/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py:3652: RuntimeWarning:
+
+Invalid value encountered in percentile
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+('merged__combined__ELF3__peaks.narrowPeak', 26260)
+bedtools makewindows -i srcwinnum -w 100 -s 50 -b merged__combined__ELF3__peaks.narrowPeak > merged__combined__ELF3__peaks.narrowPeak.w100s50 
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 186856
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+[L]= 20
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py:259: RuntimeWarning:
+
+divide by zero encountered in divide
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/CountMatrix.py:405: RuntimeWarning:
+
+divide by zero encountered in divide
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-0-day_S29/Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-10-day_S34/Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-2day_S30/Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-4day_S31/Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-6day_S32/Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-8day_S33/Bd21-3-LD--ZT4-8day_S33_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT0-LD_S1/Doro-Bd21-3-ZT0-LD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT1-LD_S2/Doro-Bd21-3-ZT1-LD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT4-LD_S3/Doro-Bd21-3-ZT4-LD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT8-LD_S4/Doro-Bd21-3-ZT8-LD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT12-LD_S5/Doro-Bd21-3-ZT12-LD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT16-LD_S6/Doro-Bd21-3-ZT16-LD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT20-LD_S7/Doro-Bd21-3-ZT20-LD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT22-LD_S8/Doro-Bd21-3-ZT22-LD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT0-Bd21-3-SD_S1/Exp0027-ZT0-Bd21-3-SD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT1-Bd21-3-SD_S2/Exp0027-ZT1-Bd21-3-SD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT4-Bd21-3-SD_S3/Exp0027-ZT4-Bd21-3-SD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT8-Bd21-3-SD_S4/Exp0027-ZT8-Bd21-3-SD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT12-Bd21-3-SD_S5/Exp0027-ZT12-Bd21-3-SD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT16-Bd21-3-SD_S6/Exp0027-ZT16-Bd21-3-SD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT20-Bd21-3-SD_S7/Exp0027-ZT20-Bd21-3-SD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT22-Bd21-3-SD_S8/Exp0027-ZT22-Bd21-3-SD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S1/193R-Bd21-3-LD-20C-ZT0_S1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S1/196R-Bd21-3-LD-20C-ZT0_S1_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S2/196R-Bd21-3-LD-20C-ZT1_S2_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S2/193R-Bd21-3-LD-20C-ZT4_S2.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S3/196R-Bd21-3-LD-20C-ZT4_S3_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S3/193R-Bd21-3-LD-20C-ZT8_S3.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S4/196R-Bd21-3-LD-20C-ZT8_S4_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S4/193R-Bd21-3-LD-20C-ZT12_S4.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S5/196R-Bd21-3-LD-20C-ZT12_S5_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S5/193R-Bd21-3-LD-20C-ZT16_S5.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S6/196R-Bd21-3-LD-20C-ZT16_S6_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S6/193R-Bd21-3-LD-20C-ZT20_S6.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S7/196R-Bd21-3-LD-20C-ZT20_S7_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S7/193R-Bd21-3-LD-20C-ZT22_S7.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S8/196R-Bd21-3-LD-20C-ZT22_S8_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-BdWT-SD_S11/Exp0024-ZT0-BdWT-SD_S11_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-BdWT-SD_S12/Exp0024-ZT4-BdWT-SD_S12_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-BdWT-SD_S13/Exp0024-ZT8-BdWT-SD_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-BdWT-SD_S14/Exp0024-ZT12-BdWT-SD_S14_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-BdWT-SD_S15/Exp0024-ZT-8-BdWT-SD_S15_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-BdWT-SD_S10/Exp0024-ZT-4-BdWT-SD_S10_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT20-BdWT_S5/Exp0024-ZT20-BdWT_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT0_S17/Bd21-3-LD--ZT0_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4_S18/Bd21-3-LD--ZT4_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT8-BdWT_S1/Exp0024-ZT8-BdWT_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT12_S19/Bd21-3-LD--ZT12_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT16-BdWT_S3/Exp0024-ZT16-BdWT_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT20_S20/Bd21-3-LD--ZT20_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT0_S25/ELF3-OX-LD--ZT0_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT4_S26/ELF3-OX-LD--ZT4_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT12_S27/ELF3-OX-LD--ZT12_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT20_S28/ELF3-OX-LD--ZT20_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT0-SD_S16/elf3-ZT0-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT1-SD_S17/elf3-ZT1-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT4-SD_S18/elf3-ZT4-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT8-SD_S19/elf3-ZT8-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT12-SD_S20/elf3-ZT12-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT16-SD_S21/elf3-ZT16-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT20-SD_S22/elf3-ZT20-SD_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT22-SD_S23/elf3-ZT22-SD_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S8/193R-bdelf3-LD-20C-ZT0_S8.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S9/193R-bdelf3-LD-20C-ZT4_S9.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S10/193R-bdelf3-LD-20C-ZT8_S10.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S11/193R-bdelf3-LD-20C-ZT12_S11.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S12/193R-bdelf3-LD-20C-ZT16_S12.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S13/193R-bdelf3-LD-20C-ZT20_S13.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S14/193R-bdelf3-LD-20C-ZT22_S14.stringtie.count
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-Bdelf3-SD_S17/Exp0024-ZT0-Bdelf3-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-Bdelf3-SD_S18/Exp0024-ZT4-Bdelf3-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-Bdelf3-SD_S19/Exp0024-ZT8-Bdelf3-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-Bdelf3-SD_S20/Exp0024-ZT12-Bdelf3-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-Bdelf3-SD_S21/Exp0024-ZT-8-Bdelf3-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-Bdelf3-SD_S16/Exp0024-ZT-4-Bdelf3-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT20-Bdphyc_S6/Exp0024-ZT20-Bdphyc_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT8-Bdphyc_S2/Exp0024-ZT8-Bdphyc_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT16-Bdphyc_S4/Exp0024-ZT16-Bdphyc_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Doro-270_S13/Doro-270_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9_S2/Exp0028-1-ZT9_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9-24h_S3/Exp0028-1-ZT9-24h_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9_S4/Exp0028-7-ZT9_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9-24h_S5/Exp0028-7-ZT9-24h_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9-24h_S7/Exp0028-8-ZT9-24h_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9_S6/Exp0028-8-ZT9_S6_trimmo_paired_2_10_5_1_toph/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py:1514: FutureWarning:
+
+Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py:259: RuntimeWarning:
+
+invalid value encountered in divide
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/CountMatrix.py:405: RuntimeWarning:
+
+invalid value encountered in divide
+
+at_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT0-LD_S24/phyC-ZT0-LD_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT1-LD_S25/phyC-ZT1-LD_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT4-LD_S26/phyC-ZT4-LD_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT8-LD_S27/phyC-ZT8-LD_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT12-LD_S28/phyC-ZT12-LD_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT16-LD_S29/phyC-ZT16-LD_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT20-LD_S30/phyC-ZT20-LD_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT0_S21/pif2-crispr-LD--ZT0_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT4_S22/pif2-crispr-LD--ZT4_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT12_S23/pif2-crispr-LD--ZT12_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT20_S24/pif2-crispr-LD--ZT20_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S9/196R-Bd21-3-LD-20C-ZT0_S9_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S10/196R-ppd1-1-LD-20C-ZT1_S10_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S11/196R-ppd1-1-LD-20C-ZT4_S11_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S12/196R-ppd1-1-LD-20C-ZT8_S12_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S13/196R-ppd1-1-LD-20C-ZT12_S13_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S14/196R-ppd1-1-LD-20C-ZT16_S14_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S15/196R-ppd1-1-LD-20C-ZT20_S15_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S16/196R-ppd1-1-LD-20C-ZT22_S16_Bd21-v3-1.stringtie.count
+(34310, 104)
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+SpecAcc=Bd_gtype=Bd21_Age=Wk2_light=LD-SD
+SpecAcc=Bd_gtype=Bd21_Age=Wk3_runID!=196R_light=LD-SD
+SpecAcc=Bd_gtype=Bd21_light=LD_runID!=196R_Age=Wk3-Wk2
+SpecAcc=Bd_Age=Wk3_light=LD_runID!=196R_gtype=Bdelf3-Bd21
+SpecAcc=Bd_gtype=Bd21_light=LD_runID!=196R_Age=Wk3-Wk2
+SpecAcc=Bd_light=LD_Age=Wk3_runID=196R_gtype=ppd1-Bd21
+None
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:83: RuntimeWarning:
+
+invalid value encountered in reduce
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[iter]0,                log_likelihood=nan
+[]:Run 0. Loglikelihood: nan
+[Best]:Run : Loglikelihood: nan
+Traceback (most recent call last):
+  File "./0129__cluster__Brachy-RNA-all.py", line 34, in <module>
+    axs = pyjob._mod1.qc__vmf(mdl0)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/model_collection/mixture_vmf.py", line 262, in qc__vmf
+    ,nMax=nMax,axs=[None,ax,None,None])
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/vis_util.py", line 950, in qc_2var
+    xlim = xlim if xlim is not None else np.span(xs,spanPer)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/numpy_extra.py", line 60, in span
+    MIN = percentile(xs,100.-p)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py", line 3540, in percentile
+    a, q, axis, out, overwrite_input, interpolation, keepdims)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py", line 3652, in _quantile_unchecked
+    interpolation=interpolation)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py", line 3250, in _ureduce
+    r = func(a, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py", line 3767, in _quantile_ureduce_func
+    x1 = take(ap, indices_below, axis=axis) * weights_below
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py", line 181, in take
+    return _wrapfunc(a, 'take', indices, axis=axis, out=out, mode=mode)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py", line 51, in _wrapfunc
+    return getattr(obj, method)(*args, **kwds)
+IndexError: cannot do a non-empty take from an empty axes.
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py:83: RuntimeWarning:
+
+invalid value encountered in reduce
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[iter]0,                log_likelihood=nan
+[]:Run 0. Loglikelihood: nan
+[Best]:Run : Loglikelihood: nan
+Traceback (most recent call last):
+  File "./0129__cluster__Brachy-RNA-all.py", line 34, in <module>
+    axs = pyjob._mod1.qc__vmf(mdl0)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/model_collection/mixture_vmf.py", line 262, in qc__vmf
+    ,nMax=nMax,axs=[None,ax,None,None])
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/vis_util.py", line 950, in qc_2var
+    xlim = xlim if xlim is not None else np.span(xs,spanPer)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/numpy_extra.py", line 60, in span
+    MIN = percentile(xs,100.-p)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py", line 3540, in percentile
+    a, q, axis, out, overwrite_input, interpolation, keepdims)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py", line 3652, in _quantile_unchecked
+    interpolation=interpolation)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py", line 3250, in _ureduce
+    r = func(a, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/lib/function_base.py", line 3767, in _quantile_ureduce_func
+    x1 = take(ap, indices_below, axis=axis) * weights_below
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py", line 181, in take
+    return _wrapfunc(a, 'take', indices, axis=axis, out=out, mode=mode)
+  File "/home/feng/.local/lib/python2.7/site-packages/numpy/core/fromnumeric.py", line 51, in _wrapfunc
+    return getattr(obj, method)(*args, **kwds)
+IndexError: cannot do a non-empty take from an empty axes.
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-0-day_S29/Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-10-day_S34/Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-2day_S30/Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-4day_S31/Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-6day_S32/Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-8day_S33/Bd21-3-LD--ZT4-8day_S33_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT0-LD_S1/Doro-Bd21-3-ZT0-LD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT1-LD_S2/Doro-Bd21-3-ZT1-LD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT4-LD_S3/Doro-Bd21-3-ZT4-LD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT8-LD_S4/Doro-Bd21-3-ZT8-LD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT12-LD_S5/Doro-Bd21-3-ZT12-LD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT16-LD_S6/Doro-Bd21-3-ZT16-LD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT20-LD_S7/Doro-Bd21-3-ZT20-LD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT22-LD_S8/Doro-Bd21-3-ZT22-LD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT0-Bd21-3-SD_S1/Exp0027-ZT0-Bd21-3-SD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT1-Bd21-3-SD_S2/Exp0027-ZT1-Bd21-3-SD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT4-Bd21-3-SD_S3/Exp0027-ZT4-Bd21-3-SD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT8-Bd21-3-SD_S4/Exp0027-ZT8-Bd21-3-SD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT12-Bd21-3-SD_S5/Exp0027-ZT12-Bd21-3-SD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT16-Bd21-3-SD_S6/Exp0027-ZT16-Bd21-3-SD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT20-Bd21-3-SD_S7/Exp0027-ZT20-Bd21-3-SD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT22-Bd21-3-SD_S8/Exp0027-ZT22-Bd21-3-SD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S1/193R-Bd21-3-LD-20C-ZT0_S1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S1/196R-Bd21-3-LD-20C-ZT0_S1_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S2/196R-Bd21-3-LD-20C-ZT1_S2_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S2/193R-Bd21-3-LD-20C-ZT4_S2.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S3/196R-Bd21-3-LD-20C-ZT4_S3_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S3/193R-Bd21-3-LD-20C-ZT8_S3.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S4/196R-Bd21-3-LD-20C-ZT8_S4_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S4/193R-Bd21-3-LD-20C-ZT12_S4.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S5/196R-Bd21-3-LD-20C-ZT12_S5_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S5/193R-Bd21-3-LD-20C-ZT16_S5.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S6/196R-Bd21-3-LD-20C-ZT16_S6_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S6/193R-Bd21-3-LD-20C-ZT20_S6.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S7/196R-Bd21-3-LD-20C-ZT20_S7_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S7/193R-Bd21-3-LD-20C-ZT22_S7.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S8/196R-Bd21-3-LD-20C-ZT22_S8_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-BdWT-SD_S11/Exp0024-ZT0-BdWT-SD_S11_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-BdWT-SD_S12/Exp0024-ZT4-BdWT-SD_S12_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-BdWT-SD_S13/Exp0024-ZT8-BdWT-SD_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-BdWT-SD_S14/Exp0024-ZT12-BdWT-SD_S14_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-BdWT-SD_S15/Exp0024-ZT-8-BdWT-SD_S15_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-BdWT-SD_S10/Exp0024-ZT-4-BdWT-SD_S10_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT20-BdWT_S5/Exp0024-ZT20-BdWT_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT0_S17/Bd21-3-LD--ZT0_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4_S18/Bd21-3-LD--ZT4_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT8-BdWT_S1/Exp0024-ZT8-BdWT_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT12_S19/Bd21-3-LD--ZT12_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT16-BdWT_S3/Exp0024-ZT16-BdWT_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT20_S20/Bd21-3-LD--ZT20_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT0_S25/ELF3-OX-LD--ZT0_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT4_S26/ELF3-OX-LD--ZT4_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT12_S27/ELF3-OX-LD--ZT12_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT20_S28/ELF3-OX-LD--ZT20_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT0-SD_S16/elf3-ZT0-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT1-SD_S17/elf3-ZT1-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT4-SD_S18/elf3-ZT4-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT8-SD_S19/elf3-ZT8-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT12-SD_S20/elf3-ZT12-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT16-SD_S21/elf3-ZT16-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT20-SD_S22/elf3-ZT20-SD_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT22-SD_S23/elf3-ZT22-SD_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S8/193R-bdelf3-LD-20C-ZT0_S8.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S9/193R-bdelf3-LD-20C-ZT4_S9.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S10/193R-bdelf3-LD-20C-ZT8_S10.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S11/193R-bdelf3-LD-20C-ZT12_S11.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S12/193R-bdelf3-LD-20C-ZT16_S12.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S13/193R-bdelf3-LD-20C-ZT20_S13.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S14/193R-bdelf3-LD-20C-ZT22_S14.stringtie.count
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-Bdelf3-SD_S17/Exp0024-ZT0-Bdelf3-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-Bdelf3-SD_S18/Exp0024-ZT4-Bdelf3-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-Bdelf3-SD_S19/Exp0024-ZT8-Bdelf3-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-Bdelf3-SD_S20/Exp0024-ZT12-Bdelf3-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-Bdelf3-SD_S21/Exp0024-ZT-8-Bdelf3-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-Bdelf3-SD_S16/Exp0024-ZT-4-Bdelf3-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT20-Bdphyc_S6/Exp0024-ZT20-Bdphyc_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT8-Bdphyc_S2/Exp0024-ZT8-Bdphyc_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT16-Bdphyc_S4/Exp0024-ZT16-Bdphyc_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Doro-270_S13/Doro-270_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9_S2/Exp0028-1-ZT9_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9-24h_S3/Exp0028-1-ZT9-24h_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9_S4/Exp0028-7-ZT9_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9-24h_S5/Exp0028-7-ZT9-24h_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9-24h_S7/Exp0028-8-ZT9-24h_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9_S6/Exp0028-8-ZT9_S6_trimmo_paired_2_10_5_1_toph/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py:1514: FutureWarning:
+
+Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py:259: RuntimeWarning:
+
+invalid value encountered in divide
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/CountMatrix.py:405: RuntimeWarning:
+
+invalid value encountered in divide
+
+at_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT0-LD_S24/phyC-ZT0-LD_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT1-LD_S25/phyC-ZT1-LD_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT4-LD_S26/phyC-ZT4-LD_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT8-LD_S27/phyC-ZT8-LD_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT12-LD_S28/phyC-ZT12-LD_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT16-LD_S29/phyC-ZT16-LD_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT20-LD_S30/phyC-ZT20-LD_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT0_S21/pif2-crispr-LD--ZT0_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT4_S22/pif2-crispr-LD--ZT4_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT12_S23/pif2-crispr-LD--ZT12_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT20_S24/pif2-crispr-LD--ZT20_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S9/196R-Bd21-3-LD-20C-ZT0_S9_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S10/196R-ppd1-1-LD-20C-ZT1_S10_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S11/196R-ppd1-1-LD-20C-ZT4_S11_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S12/196R-ppd1-1-LD-20C-ZT8_S12_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S13/196R-ppd1-1-LD-20C-ZT12_S13_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S14/196R-ppd1-1-LD-20C-ZT16_S14_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S15/196R-ppd1-1-LD-20C-ZT20_S15_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S16/196R-ppd1-1-LD-20C-ZT22_S16_Bd21-v3-1.stringtie.count
+(34310, 104)
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+SpecAcc=Bd_gtype=Bd21_Age=Wk2_light=LD-SD
+SpecAcc=Bd_gtype=Bd21_Age=Wk3_runID!=196R_light=LD-SD
+SpecAcc=Bd_gtype=Bd21_light=LD_runID!=196R_Age=Wk3-Wk2
+SpecAcc=Bd_Age=Wk3_light=LD_runID!=196R_gtype=Bdelf3-Bd21
+SpecAcc=Bd_gtype=Bd21_light=LD_runID!=196R_Age=Wk3-Wk2
+SpecAcc=Bd_light=LD_Age=Wk3_runID=196R_gtype=ppd1-Bd21
+None
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-0-day_S29/Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-10-day_S34/Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-2day_S30/Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-4day_S31/Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-6day_S32/Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-8day_S33/Bd21-3-LD--ZT4-8day_S33_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT0-LD_S1/Doro-Bd21-3-ZT0-LD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT1-LD_S2/Doro-Bd21-3-ZT1-LD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT4-LD_S3/Doro-Bd21-3-ZT4-LD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT8-LD_S4/Doro-Bd21-3-ZT8-LD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT12-LD_S5/Doro-Bd21-3-ZT12-LD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT16-LD_S6/Doro-Bd21-3-ZT16-LD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT20-LD_S7/Doro-Bd21-3-ZT20-LD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT22-LD_S8/Doro-Bd21-3-ZT22-LD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT0-Bd21-3-SD_S1/Exp0027-ZT0-Bd21-3-SD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT1-Bd21-3-SD_S2/Exp0027-ZT1-Bd21-3-SD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT4-Bd21-3-SD_S3/Exp0027-ZT4-Bd21-3-SD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT8-Bd21-3-SD_S4/Exp0027-ZT8-Bd21-3-SD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT12-Bd21-3-SD_S5/Exp0027-ZT12-Bd21-3-SD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT16-Bd21-3-SD_S6/Exp0027-ZT16-Bd21-3-SD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT20-Bd21-3-SD_S7/Exp0027-ZT20-Bd21-3-SD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT22-Bd21-3-SD_S8/Exp0027-ZT22-Bd21-3-SD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S1/193R-Bd21-3-LD-20C-ZT0_S1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S1/196R-Bd21-3-LD-20C-ZT0_S1_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S2/196R-Bd21-3-LD-20C-ZT1_S2_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S2/193R-Bd21-3-LD-20C-ZT4_S2.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S3/196R-Bd21-3-LD-20C-ZT4_S3_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S3/193R-Bd21-3-LD-20C-ZT8_S3.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S4/196R-Bd21-3-LD-20C-ZT8_S4_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S4/193R-Bd21-3-LD-20C-ZT12_S4.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S5/196R-Bd21-3-LD-20C-ZT12_S5_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S5/193R-Bd21-3-LD-20C-ZT16_S5.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S6/196R-Bd21-3-LD-20C-ZT16_S6_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S6/193R-Bd21-3-LD-20C-ZT20_S6.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S7/196R-Bd21-3-LD-20C-ZT20_S7_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S7/193R-Bd21-3-LD-20C-ZT22_S7.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S8/196R-Bd21-3-LD-20C-ZT22_S8_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-BdWT-SD_S11/Exp0024-ZT0-BdWT-SD_S11_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-BdWT-SD_S12/Exp0024-ZT4-BdWT-SD_S12_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-BdWT-SD_S13/Exp0024-ZT8-BdWT-SD_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-BdWT-SD_S14/Exp0024-ZT12-BdWT-SD_S14_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-BdWT-SD_S15/Exp0024-ZT-8-BdWT-SD_S15_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-BdWT-SD_S10/Exp0024-ZT-4-BdWT-SD_S10_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT20-BdWT_S5/Exp0024-ZT20-BdWT_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT0_S17/Bd21-3-LD--ZT0_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4_S18/Bd21-3-LD--ZT4_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT8-BdWT_S1/Exp0024-ZT8-BdWT_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT12_S19/Bd21-3-LD--ZT12_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT16-BdWT_S3/Exp0024-ZT16-BdWT_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT20_S20/Bd21-3-LD--ZT20_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT0_S25/ELF3-OX-LD--ZT0_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT4_S26/ELF3-OX-LD--ZT4_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT12_S27/ELF3-OX-LD--ZT12_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT20_S28/ELF3-OX-LD--ZT20_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT0-SD_S16/elf3-ZT0-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT1-SD_S17/elf3-ZT1-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT4-SD_S18/elf3-ZT4-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT8-SD_S19/elf3-ZT8-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT12-SD_S20/elf3-ZT12-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT16-SD_S21/elf3-ZT16-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT20-SD_S22/elf3-ZT20-SD_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT22-SD_S23/elf3-ZT22-SD_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S8/193R-bdelf3-LD-20C-ZT0_S8.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S9/193R-bdelf3-LD-20C-ZT4_S9.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S10/193R-bdelf3-LD-20C-ZT8_S10.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S11/193R-bdelf3-LD-20C-ZT12_S11.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S12/193R-bdelf3-LD-20C-ZT16_S12.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S13/193R-bdelf3-LD-20C-ZT20_S13.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/193R/S14/193R-bdelf3-LD-20C-ZT22_S14.stringtie.count
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-Bdelf3-SD_S17/Exp0024-ZT0-Bdelf3-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-Bdelf3-SD_S18/Exp0024-ZT4-Bdelf3-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-Bdelf3-SD_S19/Exp0024-ZT8-Bdelf3-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-Bdelf3-SD_S20/Exp0024-ZT12-Bdelf3-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-Bdelf3-SD_S21/Exp0024-ZT-8-Bdelf3-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-Bdelf3-SD_S16/Exp0024-ZT-4-Bdelf3-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT20-Bdphyc_S6/Exp0024-ZT20-Bdphyc_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT8-Bdphyc_S2/Exp0024-ZT8-Bdphyc_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/143R/Exp0024-ZT16-Bdphyc_S4/Exp0024-ZT16-Bdphyc_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Doro-270_S13/Doro-270_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9_S2/Exp0028-1-ZT9_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9-24h_S3/Exp0028-1-ZT9-24h_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9_S4/Exp0028-7-ZT9_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9-24h_S5/Exp0028-7-ZT9-24h_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9-24h_S7/Exp0028-8-ZT9-24h_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9_S6/Exp0028-8-ZT9_S6_trimmo_paired_2_10_5_1_toph/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py:1514: FutureWarning:
+
+Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py:259: RuntimeWarning:
+
+invalid value encountered in divide
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/CountMatrix.py:405: RuntimeWarning:
+
+invalid value encountered in divide
+
+at_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT0-LD_S24/phyC-ZT0-LD_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT1-LD_S25/phyC-ZT1-LD_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT4-LD_S26/phyC-ZT4-LD_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT8-LD_S27/phyC-ZT8-LD_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT12-LD_S28/phyC-ZT12-LD_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT16-LD_S29/phyC-ZT16-LD_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT20-LD_S30/phyC-ZT20-LD_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT0_S21/pif2-crispr-LD--ZT0_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT4_S22/pif2-crispr-LD--ZT4_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT12_S23/pif2-crispr-LD--ZT12_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT20_S24/pif2-crispr-LD--ZT20_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S9/196R-Bd21-3-LD-20C-ZT0_S9_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S10/196R-ppd1-1-LD-20C-ZT1_S10_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S11/196R-ppd1-1-LD-20C-ZT4_S11_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S12/196R-ppd1-1-LD-20C-ZT8_S12_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S13/196R-ppd1-1-LD-20C-ZT12_S13_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S14/196R-ppd1-1-LD-20C-ZT16_S14_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S15/196R-ppd1-1-LD-20C-ZT20_S15_Bd21-v3-1.stringtie.count
+RNA-seq/Mapped_data/pipeline_rnaseq/196R/S16/196R-ppd1-1-LD-20C-ZT22_S16_Bd21-v3-1.stringtie.count
+(34310, 104)
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+SpecAcc=Bd_gtype=Bd21_Age=Wk2_light=LD-SD
+SpecAcc=Bd_gtype=Bd21_Age=Wk3_runID!=196R_light=LD-SD
+SpecAcc=Bd_gtype=Bd21_light=LD_runID!=196R_Age=Wk3-Wk2
+SpecAcc=Bd_Age=Wk3_light=LD_runID!=196R_gtype=Bdelf3-Bd21
+SpecAcc=Bd_gtype=Bd21_light=LD_runID!=196R_Age=Wk3-Wk2
+SpecAcc=Bd_light=LD_Age=Wk3_runID=196R_gtype=ppd1-Bd21
+None
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0131__dumpDataRNA__Brachy.py", line 19, in <module>
+    pyutil.printlines(fnames)
+NameError: name 'fnames' is not defined
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-0-day_S29/Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-10-day_S34/Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-2day_S30/Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-4day_S31/Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-6day_S32/Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-8day_S33/Bd21-3-LD--ZT4-8day_S33_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT0-LD_S1/Doro-Bd21-3-ZT0-LD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT1-LD_S2/Doro-Bd21-3-ZT1-LD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT4-LD_S3/Doro-Bd21-3-ZT4-LD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT8-LD_S4/Doro-Bd21-3-ZT8-LD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT12-LD_S5/Doro-Bd21-3-ZT12-LD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT16-LD_S6/Doro-Bd21-3-ZT16-LD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT20-LD_S7/Doro-Bd21-3-ZT20-LD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT22-LD_S8/Doro-Bd21-3-ZT22-LD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT0-Bd21-3-SD_S1/Exp0027-ZT0-Bd21-3-SD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT1-Bd21-3-SD_S2/Exp0027-ZT1-Bd21-3-SD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT4-Bd21-3-SD_S3/Exp0027-ZT4-Bd21-3-SD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT8-Bd21-3-SD_S4/Exp0027-ZT8-Bd21-3-SD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT12-Bd21-3-SD_S5/Exp0027-ZT12-Bd21-3-SD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT16-Bd21-3-SD_S6/Exp0027-ZT16-Bd21-3-SD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT20-Bd21-3-SD_S7/Exp0027-ZT20-Bd21-3-SD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT22-Bd21-3-SD_S8/Exp0027-ZT22-Bd21-3-SD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S1/193R-Bd21-3-LD-20C-ZT0_S1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S1/196R-Bd21-3-LD-20C-ZT0_S1_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S2/196R-Bd21-3-LD-20C-ZT1_S2_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S2/193R-Bd21-3-LD-20C-ZT4_S2.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S3/196R-Bd21-3-LD-20C-ZT4_S3_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S3/193R-Bd21-3-LD-20C-ZT8_S3.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S4/196R-Bd21-3-LD-20C-ZT8_S4_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S4/193R-Bd21-3-LD-20C-ZT12_S4.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S5/196R-Bd21-3-LD-20C-ZT12_S5_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S5/193R-Bd21-3-LD-20C-ZT16_S5.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S6/196R-Bd21-3-LD-20C-ZT16_S6_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S6/193R-Bd21-3-LD-20C-ZT20_S6.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S7/196R-Bd21-3-LD-20C-ZT20_S7_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S7/193R-Bd21-3-LD-20C-ZT22_S7.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S8/196R-Bd21-3-LD-20C-ZT22_S8_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-BdWT-SD_S11/Exp0024-ZT0-BdWT-SD_S11_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-BdWT-SD_S12/Exp0024-ZT4-BdWT-SD_S12_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-BdWT-SD_S13/Exp0024-ZT8-BdWT-SD_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-BdWT-SD_S14/Exp0024-ZT12-BdWT-SD_S14_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-BdWT-SD_S15/Exp0024-ZT-8-BdWT-SD_S15_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-BdWT-SD_S10/Exp0024-ZT-4-BdWT-SD_S10_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT20-BdWT_S5/Exp0024-ZT20-BdWT_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT0_S17/Bd21-3-LD--ZT0_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4_S18/Bd21-3-LD--ZT4_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT8-BdWT_S1/Exp0024-ZT8-BdWT_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT12_S19/Bd21-3-LD--ZT12_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT16-BdWT_S3/Exp0024-ZT16-BdWT_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT20_S20/Bd21-3-LD--ZT20_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT0_S25/ELF3-OX-LD--ZT0_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT4_S26/ELF3-OX-LD--ZT4_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT12_S27/ELF3-OX-LD--ZT12_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT20_S28/ELF3-OX-LD--ZT20_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT0-SD_S16/elf3-ZT0-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT1-SD_S17/elf3-ZT1-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT4-SD_S18/elf3-ZT4-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT8-SD_S19/elf3-ZT8-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT12-SD_S20/elf3-ZT12-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT16-SD_S21/elf3-ZT16-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT20-SD_S22/elf3-ZT20-SD_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT22-SD_S23/elf3-ZT22-SD_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S8/193R-bdelf3-LD-20C-ZT0_S8.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S9/193R-bdelf3-LD-20C-ZT4_S9.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S10/193R-bdelf3-LD-20C-ZT8_S10.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S11/193R-bdelf3-LD-20C-ZT12_S11.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S12/193R-bdelf3-LD-20C-ZT16_S12.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S13/193R-bdelf3-LD-20C-ZT20_S13.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S14/193R-bdelf3-LD-20C-ZT22_S14.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-Bdelf3-SD_S17/Exp0024-ZT0-Bdelf3-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-Bdelf3-SD_S18/Exp0024-ZT4-Bdelf3-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-Bdelf3-SD_S19/Exp0024-ZT8-Bdelf3-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-Bdelf3-SD_S20/Exp0024-ZT12-Bdelf3-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-Bdelf3-SD_S21/Exp0024-ZT-8-Bdelf3-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-Bdelf3-SD_S16/Exp0024-ZT-4-Bdelf3-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT20-Bdphyc_S6/Exp0024-ZT20-Bdphyc_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT8-Bdphyc_S2/Exp0024-ZT8-Bdphyc_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT16-Bdphyc_S4/Exp0024-ZT16-Bdphyc_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Doro-270_S13/Doro-270_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9_S2/Exp0028-1-ZT9_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9-24h_S3/Exp0028-1-ZT9-24h_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9_S4/Exp0028-7-ZT9_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9-24h_S5/Exp0028-7-ZT9-24h_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9-24h_S7/Exp0028-8-ZT9-24h_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9_S6/Exp0028-8-ZT9_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT0-LD_S24/phyC-ZT0-LD_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT1-LD_S25/phyC-ZT1-LD_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT4-LD_S26/phyC-ZT4-LD_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT8-LD_S27/phyC-ZT8-LD_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT12-LD_S28/phyC-ZT12-LD_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT16-LD_S29/phyC-ZT16-LD_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT20-LD_S30/phyC-ZT20-LD_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT0_S21/pif2-crispr-LD--ZT0_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT4_S22/pif2-crispr-LD--ZT4_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py:1514: FutureWarning:
+
+Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py:1514: FutureWarning:
+
+Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-0-day_S29/Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-10-day_S34/Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-2day_S30/Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-4day_S31/Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-6day_S32/Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-8day_S33/Bd21-3-LD--ZT4-8day_S33_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT0-LD_S1/Doro-Bd21-3-ZT0-LD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT1-LD_S2/Doro-Bd21-3-ZT1-LD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT4-LD_S3/Doro-Bd21-3-ZT4-LD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT8-LD_S4/Doro-Bd21-3-ZT8-LD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT12-LD_S5/Doro-Bd21-3-ZT12-LD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT16-LD_S6/Doro-Bd21-3-ZT16-LD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT20-LD_S7/Doro-Bd21-3-ZT20-LD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/150R_Brachy_LD/Doro-Bd21-3-ZT22-LD_S8/Doro-Bd21-3-ZT22-LD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT0-Bd21-3-SD_S1/Exp0027-ZT0-Bd21-3-SD_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT1-Bd21-3-SD_S2/Exp0027-ZT1-Bd21-3-SD_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT4-Bd21-3-SD_S3/Exp0027-ZT4-Bd21-3-SD_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT8-Bd21-3-SD_S4/Exp0027-ZT8-Bd21-3-SD_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT12-Bd21-3-SD_S5/Exp0027-ZT12-Bd21-3-SD_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT16-Bd21-3-SD_S6/Exp0027-ZT16-Bd21-3-SD_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT20-Bd21-3-SD_S7/Exp0027-ZT20-Bd21-3-SD_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/148R/Brachy_SD_bd21-3_PIF3OX_PIF2OX/Exp0027-ZT22-Bd21-3-SD_S8/Exp0027-ZT22-Bd21-3-SD_S8_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S1/193R-Bd21-3-LD-20C-ZT0_S1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S1/196R-Bd21-3-LD-20C-ZT0_S1_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S2/196R-Bd21-3-LD-20C-ZT1_S2_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S2/193R-Bd21-3-LD-20C-ZT4_S2.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S3/196R-Bd21-3-LD-20C-ZT4_S3_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S3/193R-Bd21-3-LD-20C-ZT8_S3.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S4/196R-Bd21-3-LD-20C-ZT8_S4_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S4/193R-Bd21-3-LD-20C-ZT12_S4.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S5/196R-Bd21-3-LD-20C-ZT12_S5_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S5/193R-Bd21-3-LD-20C-ZT16_S5.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S6/196R-Bd21-3-LD-20C-ZT16_S6_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S6/193R-Bd21-3-LD-20C-ZT20_S6.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S7/196R-Bd21-3-LD-20C-ZT20_S7_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S7/193R-Bd21-3-LD-20C-ZT22_S7.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S8/196R-Bd21-3-LD-20C-ZT22_S8_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-BdWT-SD_S11/Exp0024-ZT0-BdWT-SD_S11_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-BdWT-SD_S12/Exp0024-ZT4-BdWT-SD_S12_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-BdWT-SD_S13/Exp0024-ZT8-BdWT-SD_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-BdWT-SD_S14/Exp0024-ZT12-BdWT-SD_S14_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-BdWT-SD_S15/Exp0024-ZT-8-BdWT-SD_S15_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-BdWT-SD_S10/Exp0024-ZT-4-BdWT-SD_S10_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT20-BdWT_S5/Exp0024-ZT20-BdWT_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT0_S17/Bd21-3-LD--ZT0_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4_S18/Bd21-3-LD--ZT4_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT8-BdWT_S1/Exp0024-ZT8-BdWT_S1_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT12_S19/Bd21-3-LD--ZT12_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT16-BdWT_S3/Exp0024-ZT16-BdWT_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT20_S20/Bd21-3-LD--ZT20_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT0_S25/ELF3-OX-LD--ZT0_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT4_S26/ELF3-OX-LD--ZT4_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT12_S27/ELF3-OX-LD--ZT12_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/ELF3-OX-LD--ZT20_S28/ELF3-OX-LD--ZT20_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT0-SD_S16/elf3-ZT0-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT1-SD_S17/elf3-ZT1-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT4-SD_S18/elf3-ZT4-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT8-SD_S19/elf3-ZT8-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT12-SD_S20/elf3-ZT12-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT16-SD_S21/elf3-ZT16-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT20-SD_S22/elf3-ZT20-SD_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/Brachy_SD_elf3/elf3-ZT22-SD_S23/elf3-ZT22-SD_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S8/193R-bdelf3-LD-20C-ZT0_S8.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S9/193R-bdelf3-LD-20C-ZT4_S9.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S10/193R-bdelf3-LD-20C-ZT8_S10.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S11/193R-bdelf3-LD-20C-ZT12_S11.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S12/193R-bdelf3-LD-20C-ZT16_S12.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S13/193R-bdelf3-LD-20C-ZT20_S13.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/193R/S14/193R-bdelf3-LD-20C-ZT22_S14.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT0-Bdelf3-SD_S17/Exp0024-ZT0-Bdelf3-SD_S17_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT4-Bdelf3-SD_S18/Exp0024-ZT4-Bdelf3-SD_S18_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT8-Bdelf3-SD_S19/Exp0024-ZT8-Bdelf3-SD_S19_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT12-Bdelf3-SD_S20/Exp0024-ZT12-Bdelf3-SD_S20_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-8-Bdelf3-SD_S21/Exp0024-ZT-8-Bdelf3-SD_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/144R/bd21-3_and_elf3/Exp0024-ZT-4-Bdelf3-SD_S16/Exp0024-ZT-4-Bdelf3-SD_S16_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT20-Bdphyc_S6/Exp0024-ZT20-Bdphyc_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT8-Bdphyc_S2/Exp0024-ZT8-Bdphyc_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/143R/Exp0024-ZT16-Bdphyc_S4/Exp0024-ZT16-Bdphyc_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Doro-270_S13/Doro-270_S13_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9_S2/Exp0028-1-ZT9_S2_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-1-ZT9-24h_S3/Exp0028-1-ZT9-24h_S3_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9_S4/Exp0028-7-ZT9_S4_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-7-ZT9-24h_S5/Exp0028-7-ZT9-24h_S5_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9-24h_S7/Exp0028-8-ZT9-24h_S7_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/other/Exp0028-8-ZT9_S6/Exp0028-8-ZT9_S6_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT0-LD_S24/phyC-ZT0-LD_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT1-LD_S25/phyC-ZT1-LD_S25_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT4-LD_S26/phyC-ZT4-LD_S26_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT8-LD_S27/phyC-ZT8-LD_S27_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT12-LD_S28/phyC-ZT12-LD_S28_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT16-LD_S29/phyC-ZT16-LD_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/149R/phyC_CRISPR/phyC-ZT20-LD_S30/phyC-ZT20-LD_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT0_S21/pif2-crispr-LD--ZT0_S21_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT4_S22/pif2-crispr-LD--ZT4_S22_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py:259: RuntimeWarning:
+
+invalid value encountered in divide
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/CountMatrix.py:405: RuntimeWarning:
+
+invalid value encountered in divide
+
+_Brachy/pif2-crispr-LD--ZT12_S23/pif2-crispr-LD--ZT12_S23_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/169R_Brachy/pif2-crispr-LD--ZT20_S24/pif2-crispr-LD--ZT20_S24_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S9/196R-Bd21-3-LD-20C-ZT0_S9_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S10/196R-ppd1-1-LD-20C-ZT1_S10_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S11/196R-ppd1-1-LD-20C-ZT4_S11_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S12/196R-ppd1-1-LD-20C-ZT8_S12_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S13/196R-ppd1-1-LD-20C-ZT12_S13_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S14/196R-ppd1-1-LD-20C-ZT16_S14_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S15/196R-ppd1-1-LD-20C-ZT20_S15_Bd21-v3-1.stringtie.count
+/home/feng/envs/BrachyPhoto/RNA-seq/Mapped_data/pipeline_rnaseq/196R/S16/196R-ppd1-1-LD-20C-ZT22_S16_Bd21-v3-1.stringtie.count
+(34310, 104)
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+SpecAcc=Bd_gtype=Bd21_Age=Wk2_light=LD-SD
+SpecAcc=Bd_gtype=Bd21_Age=Wk3_runID!=196R_light=LD-SD
+SpecAcc=Bd_gtype=Bd21_light=LD_runID!=196R_Age=Wk3-Wk2
+SpecAcc=Bd_Age=Wk3_light=LD_runID!=196R_gtype=Bdelf3-Bd21
+SpecAcc=Bd_gtype=Bd21_light=LD_runID!=196R_Age=Wk3-Wk2
+SpecAcc=Bd_light=LD_Age=Wk3_runID=196R_gtype=ppd1-Bd21
+None
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[iter]0,                log_likelihood=0.93
+[iter]10,                log_likelihood=7664.65
+[iter]20,                log_likelihood=16147.27
+[iter]30,                log_likelihood=24629.89
+[cbk]iter=31: beta=8.689E-01                         Cluster multiplexing
+[iter]40,                log_likelihood=39027.59
+[iter]50,                log_likelihood=71555.51
+[iter]60,                log_likelihood=91933.63
+[iter]70,                log_likelihood=111635.99
+[iter]80,                log_likelihood=131676.94
+[iter]90,                log_likelihood=151508.82
+[iter]100,                log_likelihood=171566.53
+[iter]110,                log_likelihood=191575.53
+[iter]120,                log_likelihood=211688.67
+[iter]130,                log_likelihood=232045.05
+[iter]140,                log_likelihood=252630.34
+[iter]150,                log_likelihood=273318.76
+[iter]160,                log_likelihood=294376.92
+[iter]170,                log_likelihood=315092.24
+[iter]180,                log_likelihood=336548.09
+[iter]190,                log_likelihood=357830.40
+[iter]200,                log_likelihood=378700.73
+[iter]210,                log_likelihood=399665.22
+[iter]220,                log_likelihood=421016.46
+[iter]230,                log_likelihood=442252.74
+[iter]240,                log_likelihood=463116.84
+[iter]250,                log_likelihood=483971.46
+[]:Run 0. Loglikelihood: 483971.45505
+[Best]:Run : Loglikelihood: 483971.45505
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
