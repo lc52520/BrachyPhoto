@@ -2217,3 +2217,95 @@ The minimum supported version is 2.4.6
 [WARN] Cannot find file:key.gene
 [WARN] pymisca.vis_util cannot find network
 [WARN] pymisca.vis_util cannot find network
+import: unable to open X server `' @ error/import.c/ImportImageCommand/364.
+./0204__makeArchive__Brachy.py: line 3: syntax error near unexpected token `('
+./0204__makeArchive__Brachy.py: line 3: `dfc = pyutil.readData(pyutil.base__file('TOUCHED.list'),ext='tsv',header=None)'
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+cp: cannot stat '0': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: failed to get attributes of 'BrachyPhoton': No such file or directory
+cp: warning: source file 'Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S8/64-SD-ZT20-ELF3OX-RERUN_S8_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S8/64-SD-ZT20-ELF3OX-RERUN_S8_peaks.narrowPeak' specified more than once
+cp: warning: source file 'headers/key_brachy.csv' specified more than once
+cp: warning: source file 'TOUCHED.list' specified more than once
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+
+cd $BASE
+cat file.index | grep ^RNA | xargs tar -cvzf RNA-seq.tar.gz
+
+
+cd $BASE
+echo > tracking.index
+{
+cat file.index | grep -v ^RNA-seq 
+echo *.tar.gz 
+echo *.index 
+echo *.txt 
+echo *.list 
+echo "Snakefile README" 
+} >> tracking.index
+
+
+cd $BASE
+echo
+mkdir -p dist;
+cat tracking.index | xargs cp -avuf --parents -t dist
+
+Traceback (most recent call last):
+  File "./0204__makeArchive__Brachy.py", line 33, in <module>
+    ''')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/shell.py", line 98, in shellexec
+    raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
+RuntimeError: command '
+cd $BASE
+echo
+mkdir -p dist;
+cat tracking.index | xargs cp -avuf --parents -t dist
+' return with error (code 123): 
+'BrachyPhoto/0204__makeArchive__Brachy.py' -> 'dist/BrachyPhoto/0204__makeArchive__Brachy.py'
+'LOG' -> 'dist/LOG'
+'TOUCHED.list' -> 'dist/TOUCHED.list'
+'RNA-seq.tar.gz' -> 'dist/RNA-seq.tar.gz'
+'file.index' -> 'dist/file.index'
+'tracking.index' -> 'dist/tracking.index'
+'Snakefile' -> 'dist/Snakefile'
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+cp: cannot stat '0': No such file or directory

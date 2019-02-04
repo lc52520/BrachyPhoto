@@ -195,8 +195,18 @@ assert suc,res
 "'''
 
         
-        
-        
+rule archive:
+    input:
+    output:
+    shell:
+        '''python2 -c "
+import pymisca.ext as pyext;
+pyext.base__check()
+suc,res = pyext.job__script(
+    pyext.base__file('BrachyPhoto/0204__makeArchive__Brachy.py'),
+)
+assert suc,res
+"'''        
         
         
         

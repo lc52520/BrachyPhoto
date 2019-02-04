@@ -1,18 +1,8 @@
+
 0
 ./headers/key_brachy.csv
 BrachyPhoto/0130__lineplot__pfr.py
-BrachyPhoton/0128__heatmap__Brachy.py
-BrachyPhoton/0129__cluster__Brachy-RNA-all.py
-BrachyPhoton/0129__showCluster__Brachy-RNA-all.py
-BrachyPhoton/0130__callDiffTarg__Brachy-ELF3.py
-BrachyPhoton/0130__chipSummary__Brachy-ELF3.py
-BrachyPhoton/0130__lineplot__pfr.py
-BrachyPhoton/0130__makePeakWindows__Brachy-ELF3.py
-BrachyPhoton/0130__makeTracks-Brachy.py
-BrachyPhoton/0131__dumpDataRNA__Brachy.py
-BrachyPhoton/0131__dumpData__Brachy.py
-BrachyPhoton/0201__dumpMeta__Brachy.py
-BrachyPhoton/0201__heatmap__Brachy.py
+BrachyPhoto/0204__makeArchive__Brachy.py
 ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw
 ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_peaks.narrowPeak
 ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw
@@ -42,7 +32,9 @@ Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7_RPKM.bw
 Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7_peaks.narrowPeak
 Mapped_data/188CR/S8/64-SD-ZT20-ELF3OX-RERUN_S8_RPKM.bw
 Mapped_data/188CR/S8/64-SD-ZT20-ELF3OX-RERUN_S8_peaks.narrowPeak
+TOUCHED.list
 Templates/listImages.html
+file.index
 headers/header__import.py
 headers/key_brachy.csv
 lists/0129__cluster__Brachy-RNA-all.csv
@@ -65,4 +57,5 @@ results/0201__dumpMeta__Brachy/rnaCurr.csv
 RNA-seq.tar.gz
 file.index tracking.index
 requirements.txt summary.txt
-Snakefile
+TOUCHED.list
+Snakefile README
