@@ -16,6 +16,19 @@ install snakemake with
 pip3 install snakemake --user
 ```
 
+## Usage
+
+1. Check dependencies with 
+
+```bash
+snakemake check_deps
+```
+
+1. Run all pipelines and output figures with
+
+```bash
+snakemake all
+```
 
 
 
