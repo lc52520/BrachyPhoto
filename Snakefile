@@ -8,17 +8,21 @@ import os
 os.environ.setdefault('BASE',os.getcwd())
 
 rule check_deps:
-    input:
+    input: ['DEPS']
     output:
     shell:
         '''python2 -c "
 import pymisca.ext as pyext;
 pyext.execBaseFile('headers/header__import.py')
 "'''
-# rule install_deps:
-#     input:
-#     output:
-#     shell:
+rule install_deps:
+    input:
+    output: temp('DEPS')
+    shell:
+        '''
+pip2 install -r requirements.txt
+sudo apt install -y bedtools
+'''
         
 def parseList(buf):
     return buf.strip().replace(' ','').splitlines()
@@ -39,6 +43,7 @@ rule decompress:
         [directory('RNA-seq/'),]
     shell:
         "tar -xvzf  RNA-seq.tar.gz"
+        
 
 rule rnaCluster:
     input:
