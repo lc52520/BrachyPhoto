@@ -42,3 +42,5 @@ results/0201__dumpMeta__Brachy/bwCurr.csv
 results/0201__dumpMeta__Brachy/rnaCurr.csv
 RNA-seq.tar.gz
 file.index tracking.index
+requirements.txt summary.txt
+Snakefile README

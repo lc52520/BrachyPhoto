@@ -33,6 +33,13 @@ rule all:
     shell:
         "echo [DONE]"
 
+rule decompress:
+    input:
+    output: 
+        [directory('RNA-seq/'),]
+    shell:
+        "tar -xvzf  RNA-seq.tar.gz"
+
 rule rnaCluster:
     input:
         scripts=['BrachyPhoto/0129__cluster__Brachy-RNA-all.py',
@@ -147,6 +154,8 @@ assert suc,res
 "'''
 
 rule loadRNA:
+    input:
+        [directory('RNA-seq/'),]
     output:
         "results/0130__makeTracks-Brachy/DONE"
     shell:
