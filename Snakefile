@@ -114,9 +114,9 @@ assert suc
 
 rule misc:
     output:
-#         signals=
+         signals=
+         ["results/0130__lineplot__pfr/DONE",],
 #             ['results/%s/DONE'  % x.split('/')[-1].rsplit('.')[0] for x in input.scripts ],
-#         "results/0130__lineplot__pfr/DONE"
     input:
          scripts=
              ['BrachyPhoto/0130__lineplot__pfr.py',
@@ -155,7 +155,7 @@ assert suc,res
 
 rule loadRNA:
     input:
-        [directory('RNA-seq/'),]
+        ['RNA-seq/',]
     output:
         "results/0130__makeTracks-Brachy/DONE"
     shell:
