@@ -1,0 +1,7 @@
+output_file	date	rule	version	log-file(s)	status	plan
+results/0129__showCluster__Brachy-RNA-all/DONE	-	rnaCluster	-		missing	update pending
+results/0129__cluster__Brachy-RNA-all/DONE	-	-	-	-	missing	update pending
+results/0128__heatmap__Brachy/DONE	-	-	-	-	missing	update pending
+results/0130__callDiffTarg__Brachy-ELF3/DONE	-	-	-	-	missing	update pending
+results/0130__lineplot__pfr/DONE	-	misc	-		missing	update pending
+results/0130__makeTracks-Brachy/DONE	-	loadRNA	-		missing	update pending

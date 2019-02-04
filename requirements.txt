@@ -1,0 +1,2 @@
+git+git://github.com/shouldsee/pymisca.git#egg=pymisca
+git+git://github.com/shouldsee/mixem.git#egg=mixem
