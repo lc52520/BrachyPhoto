@@ -22,6 +22,7 @@ rule install_deps:
         '''
 pip2 install -r requirements.txt
 sudo apt install -y bedtools
+touch DEPS
 '''
         
 def parseList(buf):
