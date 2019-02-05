@@ -18,6 +18,7 @@ import pymisca.shell as pysh
 import pymisca.util as pyutil; reload(pyutil)
 import pymisca.vis_util as pyvis; reload(pyvis)
 import cPickle as pk
+import funcy
 
 
 np = pyutil.np; pd = pyutil.pd

@@ -1,4 +1,15 @@
 DataAcc,bamAcc,bamFinal,bname,fname,runID,sampleID,RPKMFile,hasRPKMFile,bamHeader,npkFile,alias,header,genome,blacklisted,blacklist
+188CRS10,ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10,ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10.bam,phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10,/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_RPKM.bw,188CR,S10,ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_RPKM.bw,True,"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+",ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks.narrowPeak,phyC-OX-GFP-FLAG-Zt20-LD-RERUN,188CR_S10_phyC-OX-GFP-FLAG-Zt20-LD-RERUN,Bd21-v3-1,False,
 188CRS1,ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1,ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1.bam,64-LD-ZT0-ELF3-OX-RERUN_S1,/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw,188CR,S1,ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw,True,"@SQ	SN:Bd1	LN:75071545
 @SQ	SN:Bd2	LN:59130575
 @SQ	SN:Bd3	LN:59640145
@@ -54,6 +65,17 @@ DataAcc,bamAcc,bamFinal,bname,fname,runID,sampleID,RPKMFile,hasRPKMFile,bamHeade
 @SQ	SN:scaffold_180	LN:1933
 @SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
 ",ChIP-seq/Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_peaks.narrowPeak,64-SD-ZT4-ELF3-OX-RERUN,188CR_S5_64-SD-ZT4-ELF3-OX-RERUN,Bd21-v3-1,False,
+188CRS6,ChIP-seq/Mapped_data/188CR/S6/66-LD-ZT4-PRR37OX-RERUN_S6,ChIP-seq/Mapped_data/188CR/S6/66-LD-ZT4-PRR37OX-RERUN_S6.bam,66-LD-ZT4-PRR37OX-RERUN_S6,/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S6/66-LD-ZT4-PRR37OX-RERUN_S6_RPKM.bw,188CR,S6,ChIP-seq/Mapped_data/188CR/S6/66-LD-ZT4-PRR37OX-RERUN_S6_RPKM.bw,True,"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+",ChIP-seq/Mapped_data/188CR/S6/66-LD-ZT4-PRR37OX-RERUN_S6_peaks.narrowPeak,66-LD-ZT4-PRR37OX-RERUN,188CR_S6_66-LD-ZT4-PRR37OX-RERUN,Bd21-v3-1,False,
 188CRS7,ChIP-seq/Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7,ChIP-seq/Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7.bam,64-LD-ZT20-ELF3OX-RERUN_S7,/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7_RPKM.bw,188CR,S7,ChIP-seq/Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7_RPKM.bw,True,"@SQ	SN:Bd1	LN:75071545
 @SQ	SN:Bd2	LN:59130575
 @SQ	SN:Bd3	LN:59640145
@@ -76,3 +98,14 @@ DataAcc,bamAcc,bamFinal,bname,fname,runID,sampleID,RPKMFile,hasRPKMFile,bamHeade
 @SQ	SN:scaffold_180	LN:1933
 @SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
 ",ChIP-seq/Mapped_data/188CR/S8/64-SD-ZT20-ELF3OX-RERUN_S8_peaks.narrowPeak,64-SD-ZT20-ELF3OX-RERUN,188CR_S8_64-SD-ZT20-ELF3OX-RERUN,Bd21-v3-1,False,
+188CRS9,ChIP-seq/Mapped_data/188CR/S9/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S9,ChIP-seq/Mapped_data/188CR/S9/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S9.bam,phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S9,/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S9/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S9_RPKM.bw,188CR,S9,ChIP-seq/Mapped_data/188CR/S9/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S9_RPKM.bw,True,"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+",ChIP-seq/Mapped_data/188CR/S9/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S9_peaks.narrowPeak,phyC-OX-GFP-FLAG-Zt20-LD-RERUN,188CR_S9_phyC-OX-GFP-FLAG-Zt20-LD-RERUN,Bd21-v3-1,False,

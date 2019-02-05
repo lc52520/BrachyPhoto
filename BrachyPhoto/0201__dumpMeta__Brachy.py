@@ -23,7 +23,7 @@ print(rnaCurr.head().to_csv(sep='\t'))
 
 bwMeta = pyutil.readData('/home/feng/meta/meta_chip.tsv')
 bwCurr = bwMeta.query("runID=='188CR'")
-bwCurr = bwCurr.query('bname.str.contains("ELF3",case=0)')
+# bwCurr = bwCurr.query('bname.str.contains("ELF3",case=0)')
 for key in ['RPKMFile','npkFile','bamAcc','bamFinal']:
     bwCurr[key] = bwCurr[key].str.extract('([^/]+/Mapped_data/.*)')[0].tolist()
 bwCurr.to_csv('bwCurr.csv')

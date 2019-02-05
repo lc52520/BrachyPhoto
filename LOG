@@ -2309,3 +2309,1098 @@ The minimum supported version is 2.4.6
 
 
 cp: cannot stat '0': No such file or directory
+cp: warning: source file 'Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S5/64-SD-ZT4-ELF3-OX-RERUN_S5_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S7/64-LD-ZT20-ELF3OX-RERUN_S7_peaks.narrowPeak' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S8/64-SD-ZT20-ELF3OX-RERUN_S8_RPKM.bw' specified more than once
+cp: warning: source file 'Mapped_data/188CR/S8/64-SD-ZT20-ELF3OX-RERUN_S8_peaks.narrowPeak' specified more than once
+cp: warning: source file 'headers/key_brachy.csv' specified more than once
+cp: warning: source file 'file.index' specified more than once
+cp: warning: source file 'TOUCHED.list' specified more than once
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+
+cd $BASE
+cat file.index | grep ^RNA | xargs tar -cvzf RNA-seq.tar.gz
+
+
+cd $BASE
+echo > tracking.index
+{
+cat file.index | grep -v ^RNA-seq 
+echo *.tar.gz 
+echo *.index 
+echo *.txt 
+echo *.list 
+echo "Snakefile README" 
+} >> tracking.index
+
+
+cd $BASE
+echo
+mkdir -p dist;
+cat tracking.index | xargs cp -avuf --parents -t dist
+
+Traceback (most recent call last):
+  File "./0204__makeArchive__Brachy.py", line 33, in <module>
+    ''')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/shell.py", line 98, in shellexec
+    raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
+RuntimeError: command '
+cd $BASE
+echo
+mkdir -p dist;
+cat tracking.index | xargs cp -avuf --parents -t dist
+' return with error (code 123): 
+'LOG' -> 'dist/LOG'
+'TOUCHED.list' -> 'dist/TOUCHED.list'
+'file.index' -> 'dist/file.index'
+'RNA-seq.tar.gz' -> 'dist/RNA-seq.tar.gz'
+'tracking.index' -> 'dist/tracking.index'
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 39, in <module>
+    chipClu = pyutil.readBaseFile('results/0130__callDiffTarg__Brachy-ELF3/clu.csv')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1365, in readBaseFile
+    res = readData(fname,baseFile=baseFile, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1448, in readData
+    res,ext = case(ext)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1403, in case
+    res = pd.read_csv(fname, comment = comment, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 678, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 440, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 787, in __init__
+    self._make_engine(self.engine)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1014, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1708, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 384, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 695, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: File ./results/0130__callDiffTarg__Brachy-ELF3/clu.csv does not exist
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 39, in <module>
+    chipClu = pyutil.readBaseFile('results/0130__callDiffTarg__Brachy-ELF3/clu.csv')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1365, in readBaseFile
+    res = readData(fname,baseFile=baseFile, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1448, in readData
+    res,ext = case(ext)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1403, in case
+    res = pd.read_csv(fname, comment = comment, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 678, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 440, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 787, in __init__
+    self._make_engine(self.engine)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1014, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1708, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 384, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 695, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: File ./results/0130__callDiffTarg__Brachy-ELF3/clu.csv does not exist
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 39, in <module>
+    chipClu = pyutil.readBaseFile('results/0130__callDiffTarg__Brachy-ELF3/clu.csv')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1365, in readBaseFile
+    res = readData(fname,baseFile=baseFile, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1448, in readData
+    res,ext = case(ext)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1403, in case
+    res = pd.read_csv(fname, comment = comment, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 678, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 440, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 787, in __init__
+    self._make_engine(self.engine)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1014, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1708, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 384, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 695, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: File ./results/0130__callDiffTarg__Brachy-ELF3/clu.csv does not exist
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 39, in <module>
+    chipClu = pyutil.readBaseFile('results/0130__callDiffTarg__Brachy-ELF3/clu.csv')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1365, in readBaseFile
+    res = readData(fname,baseFile=baseFile, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1448, in readData
+    res,ext = case(ext)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1403, in case
+    res = pd.read_csv(fname, comment = comment, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 678, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 440, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 787, in __init__
+    self._make_engine(self.engine)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1014, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1708, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 384, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 695, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: File ./results/0130__callDiffTarg__Brachy-ELF3/clu.csv does not exist
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 8, in <module>
+    keyDF = pyutil.readBaseFile('headers/key_brachy.csv')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1365, in readBaseFile
+    res = readData(fname,baseFile=baseFile, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1448, in readData
+    res,ext = case(ext)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1403, in case
+    res = pd.read_csv(fname, comment = comment, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 678, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 440, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 787, in __init__
+    self._make_engine(self.engine)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1014, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1708, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 384, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 695, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: File ./headers/key_brachy.csv does not exist
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 64, in <module>
+    bedFile = pyext.base__file('results/0130__makePeakWindows__Brachy-ELF3/windowFile.bed')
+NameError: name 'pyext' is not defined
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 1028
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 1028
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 83, in <module>
+    axs =fig.Axes
+AttributeError: 'OrderedDict' object has no attribute 'Axes'
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 1028
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 83, in <module>
+    axs =figD.values()[0][-1].Axes
+TypeError: 'Figure' object does not support indexing
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 1028
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+Traceback (most recent call last):
+  File "./0204__pileUp__Brachy_ELF3-diffBind.py", line 83, in <module>
+    axs =figD.values()[0].Axes
+AttributeError: 'Figure' object has no attribute 'Axes'
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 1028
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[L] 1028
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+[L]= 300
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+(-14.950000000000001, 313.95)
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 20, in <module>
+    GSIZE= pyutil.readBaseFile('ref/Brachypodium_Bd21_v3-1/genome.sizes')
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1365, in readBaseFile
+    res = readData(fname,baseFile=baseFile, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1448, in readData
+    res,ext = case(ext)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1436, in case
+    temp.fheadd, ext = guess_ext(temp.fheadd, check=1)            
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1330, in guess_ext
+    assert ext is not None,"Can't guess filetype of: '%s'"%fname
+AssertionError: Can't guess filetype of: 'ref/Brachypodium_Bd21_v3-1/genome'
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 20, in <module>
+    GSIZE= pyext.base__file('ref/Brachypodium_Bd21_v3-1/genome.sizes')
+NameError: name 'pyext' is not defined
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 44, in <module>
+    rec1 = bwCurr.loc['188CRS10']
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1911, in _getitem_axis
+    self._validate_key(key, axis)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1798, in _validate_key
+    error()
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1785, in error
+    axis=self.obj._get_axis_name(axis)))
+KeyError: u'the label [188CRS10] is not in the [index]'
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 44, in <module>
+    rec1 = bwCurr.loc['188CRS10']
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1911, in _getitem_axis
+    self._validate_key(key, axis)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1798, in _validate_key
+    error()
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1785, in error
+    axis=self.obj._get_axis_name(axis)))
+KeyError: u'the label [188CRS10] is not in the [index]'
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 44, in <module>
+    rec1 = bwCurr.loc['188CRS10']
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1478, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1911, in _getitem_axis
+    self._validate_key(key, axis)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1798, in _validate_key
+    error()
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/core/indexing.py", line 1785, in error
+    axis=self.obj._get_axis_name(axis)))
+KeyError: u'the label [188CRS10] is not in the [index]'
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+./0201__dumpMeta__Brachy.py:28: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[rnaCurr]
+DataAcc	fname	SpecAcc	Age	RunID	ZTime	gtype	light	temp	sampleID	header_	ZTime_int	date	genome	tophatOpt	trimmoOpt	type	bname	sampleCode	mapped_reads	total_reads	runID
+169RS29	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-0-day_S29/Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	0-day	169R	ZT4	Bd21	LD		S29		4						Bd21-3-LD--ZT4-0-day_S29_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS34	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-10-day_S34/Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	10-day	169R	ZT4	Bd21	LD		S34		4						Bd21-3-LD--ZT4-10-day_S34_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS30	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-2day_S30/Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	2day	169R	ZT4	Bd21	LD		S30		4						Bd21-3-LD--ZT4-2day_S30_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS31	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-4day_S31/Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	4day	169R	ZT4	Bd21	LD		S31		4						Bd21-3-LD--ZT4-4day_S31_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+169RS32	RNA-seq/Mapped_data/169R_Brachy/Bd21-3-LD--ZT4-6day_S32/Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read.txt	Bd	6day	169R	ZT4	Bd21	LD		S32		4						Bd21-3-LD--ZT4-6day_S32_trimmo_paired_2_10_5_1_tophat_Bd_nomixed_sorted_rmdup_picard_combined_read				169R
+
+[bwCurr]
+DataAcc	bamAcc	bamFinal	bname	fname	runID	sampleID	RPKMFile	hasRPKMFile	bamHeader	npkFile	alias	header	genome	blacklisted	blacklist
+188CRS10	ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10	ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10.bam	phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_RPKM.bw	188CR	S10	ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks.narrowPeak	phyC-OX-GFP-FLAG-Zt20-LD-RERUN	188CR_S10_phyC-OX-GFP-FLAG-Zt20-LD-RERUN	Bd21-v3-1	False	
+188CRS1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1.bam	64-LD-ZT0-ELF3-OX-RERUN_S1	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw	188CR	S1	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_peaks.narrowPeak	64-LD-ZT0-ELF3-OX-RERUN	188CR_S1_64-LD-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2.bam	64-SD-ZT0-ELF3-OX-RERUN_S2	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw	188CR	S2	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_peaks.narrowPeak	64-SD-ZT0-ELF3-OX-RERUN	188CR_S2_64-SD-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3.bam	64-LL-ZT0-ELF3-OX-RERUN_S3	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw	188CR	S3	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_peaks.narrowPeak	64-LL-ZT0-ELF3-OX-RERUN	188CR_S3_64-LL-ZT0-ELF3-OX-RERUN	Bd21-v3-1	False	
+188CRS4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4.bam	64-LD-ZT4-ELF3-OX-RERUN_S4	/home/feng/data/syno3_PW/ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_RPKM.bw	188CR	S4	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_RPKM.bw	True	"@SQ	SN:Bd1	LN:75071545
+@SQ	SN:Bd2	LN:59130575
+@SQ	SN:Bd3	LN:59640145
+@SQ	SN:Bd4	LN:48594894
+@SQ	SN:Bd5	LN:28630136
+@SQ	SN:scaffold_12	LN:23566
+@SQ	SN:scaffold_14	LN:20560
+@SQ	SN:scaffold_135	LN:3881
+@SQ	SN:scaffold_180	LN:1933
+@SQ	SN:Bd1_centromere_containing_Bradi1g41430	LN:46184
+"	ChIP-seq/Mapped_data/188CR/S4/64-LD-ZT4-ELF3-OX-RERUN_S4_peaks.narrowPeak	64-LD-ZT4-ELF3-OX-RERUN	188CR_S4_64-LD-ZT4-ELF3-OX-RERUN	Bd21-v3-1	False	
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 48, in <module>
+    map(pyext.base__file([rec1.npkFile, rec2.npkFile]))
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/ext.py", line 85, in base__file
+    res = os.path.join(BASE,fname)
+  File "/usr/lib/python2.7/posixpath.py", line 68, in join
+    if b.startswith('/'):
+AttributeError: 'list' object has no attribute 'startswith'
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 51, in <module>
+    ),[rec1.npkFile, rec2.npkFile]
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/fop.py", line 8, in <lambda>
+    return reduce(lambda f,g: lambda *x:g(*f(*x)),lst, lambda *x:x)
+TypeError: 'list' object is not callable
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 53, in <module>
+    [rec1.npkFile, rec2.npkFile]
+  File "/home/feng/.local/lib/python2.7/site-packages/funcy/funcs.py", line 106, in <lambda>
+    pair = lambda f, g: lambda *a, **kw: f(g(*a, **kw))
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/dio.py", line 72, in npk_expandSummit
+    df = extract_peak(fname)
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/dio.py", line 61, in extract_peak
+    df = pyutil.readData(fname,ext=ext,header=header,guess_index=guess_index,**kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1448, in readData
+    res,ext = case(ext)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1412, in case
+    res = pd.read_table(fname, comment = comment, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 678, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 440, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 787, in __init__
+    self._make_engine(self.engine)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1014, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1708, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 384, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 695, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: File ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks.narrowPeak does not exist
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__vennChip__Brachy_ELF3-PHYC.py", line 53, in <module>
+    [rec1.npkFile, rec2.npkFile]
+  File "/home/feng/.local/lib/python2.7/site-packages/funcy/funcs.py", line 106, in <lambda>
+    pair = lambda f, g: lambda *a, **kw: f(g(*a, **kw))
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/dio.py", line 72, in npk_expandSummit
+    df = extract_peak(fname)
+  File "/home/feng/.local/lib/python2.7/site-packages/synotil/dio.py", line 61, in extract_peak
+    df = pyutil.readData(fname,ext=ext,header=header,guess_index=guess_index,**kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1448, in readData
+    res,ext = case(ext)
+  File "/home/feng/.local/lib/python2.7/site-packages/pymisca/util.py", line 1412, in case
+    res = pd.read_table(fname, comment = comment, **kwargs)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 678, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 440, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 787, in __init__
+    self._make_engine(self.engine)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1014, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/feng/.local/lib/python2.7/site-packages/pandas/io/parsers.py", line 1708, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 384, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 695, in pandas._libs.parsers.TextReader._setup_parser_source
+IOError: File ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks.narrowPeak does not exist
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+Traceback (most recent call last):
+  File "./0205__venn__Brachy-funcTarg.py", line 7, in <module>
+    GSIZE= pyext.base__file('ref/Brachypodium_Bd21_v3-1/genome.sizes')
+NameError: name 'pyext' is not defined
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+('ind1', 1047)
+('ind2', 143)
+('indAll', 31)
+('indAny', 1159)
+('indnot1', 112)
+('indnot2', 1016)
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+('ind1', 1047)
+('ind2', 696)
+('indAll', 79)
+('indAny', 1664)
+('indnot1', 617)
+('indnot2', 968)
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+('ind1', 1047)
+('ind2', 94)
+('indAll', 32)
+('indAny', 1109)
+('indnot1', 62)
+('indnot2', 1015)
+
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/qcplots.py:259: RuntimeWarning:
+
+divide by zero encountered in divide
+
+/home/feng/.local/lib/python2.7/site-packages/synotil/CountMatrix.py:405: RuntimeWarning:
+
+divide by zero encountered in divide
+
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] NUMPY is not limited cuz NCORE is not set
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+[WARN] Cannot find file:key.gene
+[WARN] Cannot find file:key.gene
+[WARN] pymisca.vis_util cannot find network
+[WARN] pymisca.vis_util cannot find network
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+
+ [WARN] unable to simplify condName. Exception:list index out of range
+is in ipython: 0 
+[WARN]No module named jinja2_util
+/home/feng/.local/lib/python2.7/site-packages/pandas/core/computation/check.py:17: UserWarning:
+
+The installed version of numexpr 2.4.3 is not supported in pandas and will be not be used
+The minimum supported version is 2.4.6
+
+
+cp: cannot stat '0': No such file or directory

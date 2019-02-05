@@ -29,5 +29,5 @@ pyutil.shellexec('''
 cd $BASE
 echo
 mkdir -p dist;
-cat tracking.index | xargs cp -avuf --parents -t dist
+cat tracking.index | xargs cp -avu --parents -t dist
 ''')

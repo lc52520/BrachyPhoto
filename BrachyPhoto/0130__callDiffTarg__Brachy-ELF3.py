@@ -93,7 +93,8 @@ score = pd.concat([score,sd],axis=1,)
 
 
 # query__chip = query = 'score__chipDiff>0.75 and sd__chip > 0.6'
-query__chip = query = 'score__chipDiff> 1.1 and sd__chip > 0.7'
+# query__chip = query = 'score__chipDiff> 1.1 and sd__chip > 0.7'
+query__chip = query = 'score__chipDiff> 1.5 and sd__chip > 0.7'
 # query__chip = query = 'score__chipDiff<-1.0 and sd__chip > 0.6'
 # query = 'score__chipDiff<-0.5'
 clu =  score.eval(query).to_frame(pyutil.sanitise_query(query))

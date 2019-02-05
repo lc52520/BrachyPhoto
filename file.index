@@ -1,9 +1,15 @@
 0
 ./headers/key_brachy.csv
+BrachyPhoto/0130__callDiffTarg__Brachy-ELF3.py
 BrachyPhoto/0130__lineplot__pfr.py
+BrachyPhoto/0201__dumpMeta__Brachy.py
 BrachyPhoto/0204__makeArchive__Brachy.py
+BrachyPhoto/0204__pileUp__Brachy_ELF3-diffBind.py
+BrachyPhoto/0205__vennChip__Brachy_ELF3-PHYC.py
+BrachyPhoto/0205__venn__Brachy-funcTarg.py
 ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw
 ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_peaks.narrowPeak
+ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks.narrowPeak
 ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_RPKM.bw
 ChIP-seq/Mapped_data/188CR/S2/64-SD-ZT0-ELF3-OX-RERUN_S2_peaks.narrowPeak
 ChIP-seq/Mapped_data/188CR/S3/64-LL-ZT0-ELF3-OX-RERUN_S3_RPKM.bw
@@ -142,6 +148,7 @@ headers/header__import.py
 headers/key_brachy.csv
 lists/0129__cluster__Brachy-RNA-all.csv
 meta/meta_rna.tsv
+phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks_radius=1.tsv
 ref/Brachypodium_Bd21_v3-1/annotation/Bdistachyon_314_v3.1.gene_exons.gtf.cds
 ref/Brachypodium_Bd21_v3-1/genome.sizes
 results/0129__cluster__Brachy-RNA-all/mdl.npy
@@ -149,6 +156,7 @@ results/0129__showCluster__Brachy-RNA-all/cache.npy
 results/0129__showCluster__Brachy-RNA-all/clu.csv
 results/0130__callDiffTarg__Brachy-ELF3/DONE
 results/0130__callDiffTarg__Brachy-ELF3/clu.csv
+results/0130__callDiffTarg__Brachy-ELF3/score__1024__chipTarg__ELF3.csv
 results/0130__chipSummary__Brachy-ELF3/bwAvg.pk
 results/0130__chipSummary__Brachy-ELF3/bwTrack.pk
 results/0130__makePeakWindows__Brachy-ELF3/peak2geneFile.tsv
