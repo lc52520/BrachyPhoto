@@ -19,7 +19,7 @@ plt.rcParams['xtick.labelsize'] = 22.
 plt.rcParams['axes.titlepad'] = 24.
 
 #####
-rnaScore = pyutil.readData('/home/feng/envs/Fig_Brachy/score__rnaseq__AUC.csv')
+rnaScore = pyutil.readBaseFile('results/0205__interpAUC__Brachy/score__rnaseq__AUC.csv')
 xlab = 'transcriptionally perturbed\n over day-night cycle'
 query = 'score__rnaseq__AUC>1.0'
 ind1 = rnaScore.query(query).index

@@ -5,6 +5,7 @@ BrachyPhoto/0130__lineplot__pfr.py
 BrachyPhoto/0201__dumpMeta__Brachy.py
 BrachyPhoto/0204__makeArchive__Brachy.py
 BrachyPhoto/0204__pileUp__Brachy_ELF3-diffBind.py
+BrachyPhoto/0205__interpAUC__Brachy.py
 BrachyPhoto/0205__vennChip__Brachy_ELF3-PHYC.py
 BrachyPhoto/0205__venn__Brachy-funcTarg.py
 ChIP-seq/Mapped_data/188CR/S1/64-LD-ZT0-ELF3-OX-RERUN_S1_RPKM.bw
@@ -164,3 +165,4 @@ results/0130__makeTracks-Brachy/tracks.npy
 results/0131__dumpDataRNA__Brachy/rna_log2p1_filtered.pk
 results/0201__dumpMeta__Brachy/bwCurr.csv
 results/0201__dumpMeta__Brachy/rnaCurr.csv
+results/0205__interpAUC__Brachy/score__rnaseq__AUC.csv
