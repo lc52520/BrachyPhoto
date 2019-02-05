@@ -45,7 +45,6 @@ headers/header__import.py
 headers/key_brachy.csv
 lists/0129__cluster__Brachy-RNA-all.csv
 meta/meta_rna.tsv
-phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks_radius=1.tsv
 ref/Brachypodium_Bd21_v3-1/annotation/Bdistachyon_314_v3.1.gene_exons.gtf.cds
 ref/Brachypodium_Bd21_v3-1/genome.sizes
 results/0129__cluster__Brachy-RNA-all/mdl.npy

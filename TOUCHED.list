@@ -1018,7 +1018,6 @@ headers/key_brachy.csv
 ref/Brachypodium_Bd21_v3-1/genome.sizes
 results/0201__dumpMeta__Brachy/bwCurr.csv
 ChIP-seq/Mapped_data/188CR/S10/phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks.narrowPeak
-phyC-OX-GFP-FLAG-Zt20-LD-RERUN_S10_peaks_radius=1.tsv
 BrachyPhoto/0205__vennChip__Brachy_ELF3-PHYC.py
 LOG
 headers/header__import.py
@@ -1086,6 +1085,10 @@ headers/header__import.py
 results/0130__makePeakWindows__Brachy-ELF3/peak2geneFile.tsv
 results/0130__chipSummary__Brachy-ELF3/bwAvg.pk
 Templates/listImages.html
+BrachyPhoto/0204__makeArchive__Brachy.py
+LOG
+TOUCHED.list
+file.index
 BrachyPhoto/0204__makeArchive__Brachy.py
 LOG
 TOUCHED.list
